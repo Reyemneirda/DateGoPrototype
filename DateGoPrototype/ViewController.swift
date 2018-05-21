@@ -135,7 +135,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
         officeNode = SCNNode(geometry: SCNBox(width: 20.0, height: 20.0, length: 20.0, chamferRadius: 2.0))
         nodes = [SCNNode(geometry: SCNBox(width: 20.0, height: 20.0, length: 20.0, chamferRadius: 2.0)), SCNNode(geometry: SCNBox(width: 20.0, height: 20.0, length: 20.0, chamferRadius: 2.0)), SCNNode(geometry: SCNBox(width: 20.0, height: 20.0, length: 20.0, chamferRadius: 2.0)), SCNNode(geometry: SCNBox(width: 20.0, height: 20.0, length: 20.0, chamferRadius: 2.0))]
         
-        officeNode.setValue(CLLocationCoordinate2DMake(32.063550, 34.770216), forKey: "coordinate")
+        officeNode.setValue(CLLocationCoordinate2DMake(32.064778, 34.774500), forKey: "coordinate")
         
         
         officeNode.geometry?.firstMaterial?.diffuse.contents = UIColor.white
