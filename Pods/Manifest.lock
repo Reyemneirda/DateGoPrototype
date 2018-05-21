@@ -1,0 +1,20 @@
+PODS:
+  - Mapbox-iOS-SDK (3.7.6)
+  - ViewDeck (3.1.0)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 3.7)
+  - ViewDeck
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Mapbox-iOS-SDK
+    - ViewDeck
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 23ececda1d90c3b436b45e2c88e9677f025303c0
+  ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
+
+PODFILE CHECKSUM: 241023824c85b67dd2edbe10c9efb866c8ddc79d
+
+COCOAPODS: 1.5.0

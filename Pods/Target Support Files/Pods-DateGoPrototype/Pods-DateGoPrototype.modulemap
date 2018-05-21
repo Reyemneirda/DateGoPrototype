@@ -1,0 +1,6 @@
+framework module Pods_DateGoPrototype {
+  umbrella header "Pods-DateGoPrototype-umbrella.h"
+
+  export *
+  module * { export * }
+}

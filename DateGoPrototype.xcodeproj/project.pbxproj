@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA1730DF8921720BA15C0B6 /* Pods_DateGoPrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E959866A7D2E966E9995F5 /* Pods_DateGoPrototype.framework */; };
 		85930F9C20848E7100A8519E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85930F9B20848E7100A8519E /* AppDelegate.swift */; };
 		85930F9E20848E7100A8519E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85930F9D20848E7100A8519E /* ViewController.swift */; };
 		85930FA120848E7100A8519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85930F9F20848E7100A8519E /* Main.storyboard */; };
 		85930FA420848E7100A8519E /* DateGoPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85930FA220848E7100A8519E /* DateGoPrototype.xcdatamodeld */; };
 		85930FA620848E7200A8519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85930FA520848E7200A8519E /* Assets.xcassets */; };
 		85930FA920848E7200A8519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85930FA720848E7200A8519E /* LaunchScreen.storyboard */; };
+		85930FB32085DE0800A8519E /* Body.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85930FB22085DC8A00A8519E /* Body.scn */; };
+		85EE8D10208B795E00C4F185 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE8D0F208B795E00C4F185 /* SlideMenuViewController.swift */; };
+		85EE8D12208B7AF100C4F185 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE8D11208B7AF100C4F185 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3FABB1120714A1FADBF78B /* Pods-DateGoPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateGoPrototype.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateGoPrototype/Pods-DateGoPrototype.release.xcconfig"; sourceTree = "<group>"; };
 		85930F9820848E7100A8519E /* DateGoPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateGoPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85930F9B20848E7100A8519E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85930F9D20848E7100A8519E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,12 @@
 		85930FA520848E7200A8519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85930FA820848E7200A8519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85930FAA20848E7200A8519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85930FB22085DC8A00A8519E /* Body.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Body.scn; sourceTree = "<group>"; };
+		85EE8D0D208B78FB00C4F185 /* DateGo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateGo-Bridge.h"; sourceTree = "<group>"; };
+		85EE8D0F208B795E00C4F185 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SlideMenuViewController.swift; path = DateGoPrototype/SlideMenuViewController.swift; sourceTree = SOURCE_ROOT; };
+		85EE8D11208B7AF100C4F185 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		A2E959866A7D2E966E9995F5 /* Pods_DateGoPrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateGoPrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC528A178AD8501E5B5F13B0 /* Pods-DateGoPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateGoPrototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateGoPrototype/Pods-DateGoPrototype.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA1730DF8921720BA15C0B6 /* Pods_DateGoPrototype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793395A74F9167317657A281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2E959866A7D2E966E9995F5 /* Pods_DateGoPrototype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85930F8F20848E7100A8519E = {
 			isa = PBXGroup;
 			children = (
 				85930F9A20848E7100A8519E /* DateGoPrototype */,
 				85930F9920848E7100A8519E /* Products */,
+				F959A08FC245697A1282B06E /* Pods */,
+				793395A74F9167317657A281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +78,8 @@
 		85930F9A20848E7100A8519E /* DateGoPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				85EE8D0E208B791000C4F185 /* ViewDeck */,
+				85930FB22085DC8A00A8519E /* Body.scn */,
 				85930F9B20848E7100A8519E /* AppDelegate.swift */,
 				85930F9D20848E7100A8519E /* ViewController.swift */,
 				85930F9F20848E7100A8519E /* Main.storyboard */,
@@ -63,8 +87,27 @@
 				85930FA720848E7200A8519E /* LaunchScreen.storyboard */,
 				85930FAA20848E7200A8519E /* Info.plist */,
 				85930FA220848E7100A8519E /* DateGoPrototype.xcdatamodeld */,
+				85EE8D0D208B78FB00C4F185 /* DateGo-Bridge.h */,
 			);
 			path = DateGoPrototype;
+			sourceTree = "<group>";
+		};
+		85EE8D0E208B791000C4F185 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				85EE8D0F208B795E00C4F185 /* SlideMenuViewController.swift */,
+				85EE8D11208B7AF100C4F185 /* MenuController.swift */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
+		F959A08FC245697A1282B06E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC528A178AD8501E5B5F13B0 /* Pods-DateGoPrototype.debug.xcconfig */,
+				7E3FABB1120714A1FADBF78B /* Pods-DateGoPrototype.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85930FAD20848E7200A8519E /* Build configuration list for PBXNativeTarget "DateGoPrototype" */;
 			buildPhases = (
+				E141A5EF1E9CBDAC945A51FD /* [CP] Check Pods Manifest.lock */,
 				85930F9420848E7100A8519E /* Sources */,
 				85930F9520848E7100A8519E /* Frameworks */,
 				85930F9620848E7100A8519E /* Resources */,
+				7626CD990EB5A086678A8D4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +173,63 @@
 				85930FA920848E7200A8519E /* LaunchScreen.storyboard in Resources */,
 				85930FA620848E7200A8519E /* Assets.xcassets in Resources */,
 				85930FA120848E7100A8519E /* Main.storyboard in Resources */,
+				85930FB32085DE0800A8519E /* Body.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7626CD990EB5A086678A8D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DateGoPrototype/Pods-DateGoPrototype-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/ViewDeck/ViewDeck.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewDeck.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateGoPrototype/Pods-DateGoPrototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E141A5EF1E9CBDAC945A51FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DateGoPrototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85930F9420848E7100A8519E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE8D12208B7AF100C4F185 /* MenuController.swift in Sources */,
 				85930F9E20848E7100A8519E /* ViewController.swift in Sources */,
+				85EE8D10208B795E00C4F185 /* SlideMenuViewController.swift in Sources */,
 				85930FA420848E7100A8519E /* DateGoPrototype.xcdatamodeld in Sources */,
 				85930F9C20848E7100A8519E /* AppDelegate.swift in Sources */,
 			);
@@ -282,17 +373,20 @@
 		};
 		85930FAE20848E7200A8519E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC528A178AD8501E5B5F13B0 /* Pods-DateGoPrototype.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 863SU8KM77;
 				INFOPLIST_FILE = DateGoPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DateGo.DateGoPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./DateGoPrototype/DateGo-Bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +394,20 @@
 		};
 		85930FAF20848E7200A8519E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3FABB1120714A1FADBF78B /* Pods-DateGoPrototype.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 863SU8KM77;
 				INFOPLIST_FILE = DateGoPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DateGo.DateGoPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./DateGoPrototype/DateGo-Bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

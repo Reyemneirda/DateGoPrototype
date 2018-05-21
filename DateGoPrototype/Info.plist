@@ -31,8 +31,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -41,5 +39,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>MGLMapboxAccessToken</key> <string>pk.eyJ1IjoicmV5ZW0iLCJhIjoiY2pnMXkxNTN5MGI2NzJ6b2hwa3VqdDg0NyJ9.yYiK6EvfQHOebNB4WvjTVQ</string>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>DateGo needs access to your location</string>
+	<key>NSLocationUsageDescription</key>
+	<string>DateGo needs access to your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>DateGo needs access to your location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>DateGo needs access to your location</string>
 </dict>
 </plist>

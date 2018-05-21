@@ -1,24 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Menu Controller-->
+        <scene sceneID="kyq-Bx-Woe">
+            <objects>
+                <viewController storyboardIdentifier="MenuController" id="D0l-fy-Gsn" customClass="MenuController" customModule="DateGoPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FBi-8L-WZI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="Yn9-re-7QW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Al-7l-kMR">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <state key="normal" title="Profile"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5C-uG-Xxi">
+                                        <rect key="frame" x="0.0" y="66" width="375" height="30"/>
+                                        <state key="normal" title="Preferences"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQl-7m-KIE">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="30"/>
+                                        <state key="normal" title="My Coupons"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSY-Qj-mwP">
+                                        <rect key="frame" x="0.0" y="198" width="375" height="30"/>
+                                        <state key="normal" title="Help"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yn9-re-7QW" firstAttribute="leading" secondItem="dkJ-tl-Rat" secondAttribute="leading" id="BUC-GU-mig"/>
+                            <constraint firstItem="dkJ-tl-Rat" firstAttribute="trailing" secondItem="Yn9-re-7QW" secondAttribute="trailing" id="DWi-PX-evD"/>
+                            <constraint firstItem="Yn9-re-7QW" firstAttribute="top" secondItem="dkJ-tl-Rat" secondAttribute="top" constant="44" id="VDv-yb-ntF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dkJ-tl-Rat"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWR-45-OKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495" y="125"/>
+        </scene>
+        <!--Slide Menu Example View Controller-->
+        <scene sceneID="ZO2-xm-jPX">
+            <objects>
+                <viewController id="6Am-3o-q0K" customClass="SlideMenuExampleViewController" customModule="DateGoPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q1w-tk-5nL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ab9-hd-Qha"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlS-0x-oxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="125"/>
+        </scene>
+        <!--Delegate-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DateGoPrototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSm-oU-7Gu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="ConneXZ" id="nTb-bO-13N">
+                                        <barButtonItem key="leftBarButtonItem" image="menu-icon" id="8rZ-Z8-yU6">
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="menu:" destination="BYZ-38-t0r" id="aQU-v8-PBI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDp-aw-3TQ" customClass="MGLMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eef-xq-A1B">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </sceneKitView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsZooming" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="A5t-21-8UL"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jDp-aw-3TQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0cT-HU-BqN"/>
+                            <constraint firstItem="jDp-aw-3TQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4LF-6M-OnO"/>
+                            <constraint firstItem="jDp-aw-3TQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Qy-jZ-N8q"/>
+                            <constraint firstItem="SSm-oU-7Gu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9ZV-iA-A5B"/>
+                            <constraint firstItem="SSm-oU-7Gu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GfU-z9-LSO"/>
+                            <constraint firstItem="jDp-aw-3TQ" firstAttribute="top" secondItem="SSm-oU-7Gu" secondAttribute="bottom" id="MpW-p3-ms6"/>
+                            <constraint firstItem="SSm-oU-7Gu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O5O-aa-DgC"/>
+                            <constraint firstItem="jDp-aw-3TQ" firstAttribute="top" secondItem="SSm-oU-7Gu" secondAttribute="bottom" id="seo-rZ-Q5p"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="jDp-aw-3TQ" id="vAO-yM-JeV"/>
+                        <outlet property="sceneView" destination="eef-xq-A1B" id="ptX-mN-ggx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-198" y="125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu-icon" width="40" height="33"/>
+    </resources>
 </document>
